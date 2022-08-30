@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "Food Recipe app to help with documenting meals",
   "main": "app.js",
+  "type": "module",
   "scripts": {
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mikord",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "pino": "^8.4.2"
   },
   "dependencies": {
     "express": "^4.18.1"
