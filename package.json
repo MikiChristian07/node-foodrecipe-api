@@ -1,0 +1,17 @@
+{
+  "name": "foodrecipe-api",
+  "version": "1.0.0",
+  "description": "Food Recipe app to help with documenting meals",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikord",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
