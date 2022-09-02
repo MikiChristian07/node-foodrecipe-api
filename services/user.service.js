@@ -5,6 +5,11 @@ class UserService{
         const newUser = await User.create(data);
         return newUser;
     }
+
+    async findByemail(email){
+        const user = await User.findOne({ email });
+        return user;
+    }
 }
 
 export default new UserService();
