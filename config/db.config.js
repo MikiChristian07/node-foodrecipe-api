@@ -1,9 +1,10 @@
+/* eslint-disable import/no-cycle */
 /* eslint-disable import/extensions */
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import { logger } from '../app.js';
 
-dotenv.config()
+dotenv.config();
 const dbConn = () => {
     mongoose.connect(process.env.MONGO_URI)
         .then(() => {
