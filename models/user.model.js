@@ -18,7 +18,6 @@ const userSchema = mongoose.Schema({
         required: true,
         unique: true
     }
-
 }, { timestamps: true });
 
 // Define static method to be used on User object
