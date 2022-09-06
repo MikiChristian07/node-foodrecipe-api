@@ -38,7 +38,6 @@ userSchema.set('toJSON', {
     versionKey: false,
     transform(doc, ret) {
         // eslint-disable-next-line no-param-reassign
-        delete ret.token;
         delete ret.password;
     }
 });
